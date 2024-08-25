@@ -40,10 +40,8 @@ function SkillsComponent() {
             <Container>
                 <Row>
                     <Col>
+                        <h2>Skills</h2>
                         <div className="skills-bx wow zoomIn">
-                            <div className="section-title">
-                                <h2>Skills</h2>
-                            </div>
                             <Carousel
                                 responsive={responsive}
                                 infinite={true}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { FaWhatsapp, FaTelegramPlane, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 function ContactComponent() {

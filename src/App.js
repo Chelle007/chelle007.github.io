@@ -5,6 +5,7 @@ import SkillsComponent from './components/SkillsComponent.js';
 import ProjectComponent from './components/ProjectComponent.js';
 import ContactComponent from './components/ContactComponent.js';
 import FooterComponent from './components/FooterComponent.js';
+import ShootingStarsBg from './components/ShootingStarBackground.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <NavbarComponent />
       <BannerComponent />
+      <ShootingStarsBg />
       <SkillsComponent />
       <ProjectComponent />
       <ContactComponent />

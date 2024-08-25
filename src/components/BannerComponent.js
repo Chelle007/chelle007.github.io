@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { FaWhatsapp, FaTelegramPlane, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 function BannerComponent() {
     const toRotate = ["Web Developer.", "Java Backend Developer."];
@@ -55,17 +55,27 @@ function BannerComponent() {
                             <span className="wrap">{text}</span>
                         </h1>
                         <p>Eager to explore and learn about a wide range of technologies and fields.</p>
-                        <div className="social-icons">
-                            <a href="https://www.linkedin.com/in/mchellechan" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faLinkedin} />
-                            </a>
-                            <a href="https://github.com/Chelle007" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faGithub} />
-                            </a>
-                        </div>
                     </Col>
                 </Row>
             </Container>
+            <div className="barrier">
+                <Col>
+                    <p>
+                        <a href="https://wa.me/6583420687" target="_blank" rel="noopener noreferrer" className="contact-link">
+                            <FaWhatsapp className="icon" /> +65 83420687
+                        </a>
+                        <a href="https://t.me/MichelleChan" target="_blank" rel="noopener noreferrer" className="contact-link">
+                            <FaTelegramPlane className="icon" /> @MichelleChan
+                        </a>
+                        <a href="https://www.linkedin.com/in/mchellechan" target="_blank" rel="noopener noreferrer" className="contact-link">
+                            <FaLinkedin className="icon" /> @mchellechan
+                        </a>
+                        <a href="https://github.com/Chelle007" target="_blank" rel="noopener noreferrer" className="contact-link">
+                            <FaGithub className="icon" /> Chelle007
+                        </a>
+                    </p>
+                </Col>
+            </div>
         </section>
     )
 }
