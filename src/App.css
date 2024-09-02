@@ -101,17 +101,19 @@ nav.navbar .navbar-brand img {
   height: auto;
 }
 
-nav.navbar .navbar-nav .nav-link.navbar-link {
+nav.navbar .navbar-nav a.navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
+  transition: color 0.3s ease, opacity 0.3s ease;
+  text-decoration: none;
 }
 
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+nav.navbar .navbar-nav a.navbar-link:hover,
+nav.navbar .navbar-nav a.navbar-link.active {
   opacity: 1;
 }
 
@@ -238,10 +240,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   flex-direction: column;
   margin-top: 0;
-  height: 100vh;
-  overflow: hidden;
+  height: 110vh;
+  overflow: visible;
   justify-content: center;
-  align-items: center;
+  position: relative;
 }
 
 .banner h1 {
@@ -299,8 +301,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .barrier {
+  bottom: 0;
   position: absolute;
-  margin-top: 110vh;
   padding: 18px;
   background: linear-gradient(90deg, rgba(0, 153, 136, 1) 0%, rgba(0, 204, 153, 1) 50%, rgba(0, 102, 204, 1) 100%);
   background-size: 200% 200%;
@@ -536,11 +538,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skills-bx {
-  background: #151515;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
+  padding: 60px 0;
+}
+
+.glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.item {
+  margin: 0 10%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 .skills h2 {
@@ -583,7 +599,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  padding: 0 10%;
 }
 
 .skill-logo {
@@ -601,7 +616,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
+  padding: 60px 0;
   position: relative;
   z-index: 1;
 }
@@ -634,7 +649,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 33.33333%;
 }
 
-.project .nav.nav-pills .nav-link {
+.project .nav.nav-pills a {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
@@ -649,7 +664,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 0;
 }
 
-.project .nav.nav-pills .nav-link::before {
+.project .nav.nav-pills a::before {
   content: "";
   position: absolute;
   width: 0;
@@ -661,25 +676,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
 }
 
-.project .nav.nav-pills .nav-link.active::before {
+.project .nav.nav-pills a.active::before {
   width: 100% !important;
 }
 
-.project .nav.nav-pills .nav-link.active {
+.project .nav.nav-pills a.active {
   border: 1px solid rgba(255, 255, 255, 1);
 }
 
-.nav-link#projects-tabs-tab-first {
+a#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
 }
 
-.nav-link#projects-tabs-tab-second {
+a#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.nav-link#projects-tabs-tab-third {
+a#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
@@ -700,11 +715,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   justify-content: center;
 }
 
-.proj-imgbx img {
+.proj-imgbx .proj-img {
   transition: 0.4s ease-in-out;
 }
 
-.proj-imgbx:hover img {
+.proj-imgbx:hover .proj-img {
   filter: blur(3px);
 }
 
@@ -725,6 +740,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
   top: 0;
   opacity: 1;
+}
+
+.proj-links {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.proj-links a {
+  color: #fff;
+  font-size: 30px;
+  transition: transform 0.3s;
+}
+
+.proj-links a:hover {
+  transform: translateY(-5px);
 }
 
 .proj-txtx {
@@ -758,6 +790,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+
+.tech-stack {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.tech-stack .tech-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+}
+
+.tech-stack .tech-icon:hover {
+  transform: scale(1.1);
+}
+
 
 /************ Contact Css ************/
 .contact {

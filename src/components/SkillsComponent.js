@@ -7,6 +7,7 @@ import cssLogo from '../assets/img/css-logo.svg';
 import cppLogo from '../assets/img/cpp-logo.svg';
 import jsLogo from '../assets/img/javascript-logo.svg';
 import reactLogo from '../assets/img/react-logo.svg';
+import bootstrapLogo from '../assets/img/bootstrap-logo.svg';
 import solidityLogo from '../assets/img/solidity-logo.svg';
 import mysqlLogo from '../assets/img/mysql-logo.svg';
 import sqliteLogo from '../assets/img/sqlite-logo.svg';
@@ -49,7 +50,7 @@ function SkillsComponent() {
                                 autoPlaySpeed={7000}
                                 className="skills-slider"
                             >
-                                <div className="item">
+                                <div className="glass item">
                                     <h4>Beginner Level</h4>
                                     <div className="skills-logos">
                                         <Row className="justify-content-center">
@@ -74,12 +75,12 @@ function SkillsComponent() {
                                                 <p>React</p>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
-                                                <img src={solidityLogo} alt="Solidity Logo" className="skill-logo" />
-                                                <p>Solidity</p>
+                                                <img src={bootstrapLogo} alt="Bootstrap Logo" className="skill-logo" />
+                                                <p>Boostrap</p>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
-                                                <img src={mysqlLogo} alt="MySQL Logo" className="skill-logo" />
-                                                <p>MySQL</p>
+                                                <img src={solidityLogo} alt="Solidity Logo" className="skill-logo" />
+                                                <p>Solidity</p>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={sqliteLogo} alt="SQLite Logo" className="skill-logo" />
@@ -88,7 +89,7 @@ function SkillsComponent() {
                                         </Row>
                                     </div>
                                 </div>
-                                <div className="item">
+                                <div className="glass item">
                                     <h4>Intermediate Level</h4>
                                     <div className="skills-logos">
                                         <Col xs={6} md={4} lg={3} className="skill-item">
@@ -106,6 +107,10 @@ function SkillsComponent() {
                                         <Col xs={6} md={4} lg={3} className="skill-item">
                                             <img src={postgresqlLogo} alt="PostgreSQL Logo" className="skill-logo" />
                                             <p>PostgreSQL</p>
+                                        </Col>
+                                        <Col xs={6} md={4} lg={3} className="skill-item">
+                                            <img src={mysqlLogo} alt="MySQL Logo" className="skill-logo" />
+                                            <p>MySQL</p>
                                         </Col>
                                     </div>
                                 </div>
