@@ -56,35 +56,35 @@ function SkillsComponent() {
                                         <Row className="justify-content-center">
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={htmlLogo} alt="HTML Logo" className="skill-logo" />
-                                                <h5>HTML</h5>
+                                                <h6>HTML</h6>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={cssLogo} alt="CSS Logo" className="skill-logo" />
-                                                <h5>CSS</h5>
+                                                <h6>CSS</h6>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={cppLogo} alt="C++ Logo" className="skill-logo" />
-                                                <h5>C++</h5>
+                                                <h6>C++</h6>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={jsLogo} alt="JavaScript Logo" className="skill-logo" />
-                                                <h5>JavaScript</h5>
+                                                <h6>JavaScript</h6>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={reactLogo} alt="React Logo" className="skill-logo" />
-                                                <h5>React</h5>
+                                                <h6>React</h6>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={bootstrapLogo} alt="Bootstrap Logo" className="skill-logo" />
-                                                <h5>Boostrap</h5>
+                                                <h6>Boostrap</h6>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={solidityLogo} alt="Solidity Logo" className="skill-logo" />
-                                                <h5>Solidity</h5>
+                                                <h6>Solidity</h6>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={sqliteLogo} alt="SQLite Logo" className="skill-logo" />
-                                                <h5>SQLite</h5>
+                                                <h6>SQLite</h6>
                                             </Col>
                                         </Row>
                                     </div>
@@ -94,23 +94,23 @@ function SkillsComponent() {
                                     <div className="skills-logos">
                                         <Col xs={6} md={4} lg={3} className="skill-item">
                                             <img src={javaLogo} alt="Java Logo" className="skill-logo" />
-                                            <h5>Java</h5>
+                                            <h6>Java</h6>
                                         </Col>
                                         <Col xs={6} md={4} lg={3} className="skill-item">
                                             <img src={springLogo} alt="Spring Logo" className="skill-logo" />
-                                            <h5>Spring</h5>
+                                            <h6>Spring</h6>
                                         </Col>
                                         <Col xs={6} md={4} lg={3} className="skill-item">
                                             <img src={pythonLogo} alt="Python Logo" className="skill-logo" />
-                                            <h5>Python</h5>
+                                            <h6>Python</h6>
                                         </Col>
                                         <Col xs={6} md={4} lg={3} className="skill-item">
                                             <img src={postgresqlLogo} alt="PostgreSQL Logo" className="skill-logo" />
-                                            <h5>PostgreSQL</h5>
+                                            <h6>PostgreSQL</h6>
                                         </Col>
                                         <Col xs={6} md={4} lg={3} className="skill-item">
                                             <img src={mysqlLogo} alt="MySQL Logo" className="skill-logo" />
-                                            <h5>MySQL</h5>
+                                            <h6>MySQL</h6>
                                         </Col>
                                     </div>
                                 </div>
