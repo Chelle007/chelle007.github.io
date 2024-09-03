@@ -54,13 +54,13 @@ function BannerComponent() {
                             {', a '}
                             <span className="wrap">{text}</span>
                         </h1>
-                        <p>Eager to explore and learn about a wide range of technologies and fields.</p>
+                        <h5>Eager to explore and learn about a wide range of technologies and fields.</h5>
                     </Col>
                 </Row>
             </Container>
             <div className="barrier">
                 <Col>
-                    <p>
+                    <h6>
                         <a href="https://wa.me/6583420687" target="_blank" rel="noopener noreferrer" className="contact-link">
                             <FaWhatsapp className="icon" /> +65 83420687
                         </a>
@@ -73,7 +73,7 @@ function BannerComponent() {
                         <a href="https://github.com/Chelle007" target="_blank" rel="noopener noreferrer" className="contact-link">
                             <FaGithub className="icon" /> Chelle007
                         </a>
-                    </p>
+                    </h6>
                 </Col>
             </div>
         </section>

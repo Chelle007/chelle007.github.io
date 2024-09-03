@@ -81,7 +81,7 @@ function ProjectComponent() {
             <Container>
                 <Row>
                     <Col>
-                        <h2>Projects</h2>
+                        <h1>Projects</h1>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" defaultActiveKey="/home">
                                 <Nav.Item>

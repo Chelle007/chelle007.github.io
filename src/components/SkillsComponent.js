@@ -41,7 +41,7 @@ function SkillsComponent() {
             <Container>
                 <Row>
                     <Col>
-                        <h2>Skills</h2>
+                        <h1>Skills</h1>
                         <div className="skills-bx wow zoomIn">
                             <Carousel
                                 responsive={responsive}
@@ -51,66 +51,66 @@ function SkillsComponent() {
                                 className="skills-slider"
                             >
                                 <div className="glass item">
-                                    <h4>Beginner Level</h4>
+                                    <h2>Beginner Level</h2>
                                     <div className="skills-logos">
                                         <Row className="justify-content-center">
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={htmlLogo} alt="HTML Logo" className="skill-logo" />
-                                                <p>HTML</p>
+                                                <h5>HTML</h5>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={cssLogo} alt="CSS Logo" className="skill-logo" />
-                                                <p>CSS</p>
+                                                <h5>CSS</h5>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={cppLogo} alt="C++ Logo" className="skill-logo" />
-                                                <p>C++</p>
+                                                <h5>C++</h5>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={jsLogo} alt="JavaScript Logo" className="skill-logo" />
-                                                <p>JavaScript</p>
+                                                <h5>JavaScript</h5>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={reactLogo} alt="React Logo" className="skill-logo" />
-                                                <p>React</p>
+                                                <h5>React</h5>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={bootstrapLogo} alt="Bootstrap Logo" className="skill-logo" />
-                                                <p>Boostrap</p>
+                                                <h5>Boostrap</h5>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={solidityLogo} alt="Solidity Logo" className="skill-logo" />
-                                                <p>Solidity</p>
+                                                <h5>Solidity</h5>
                                             </Col>
                                             <Col xs={6} md={4} lg={3} className="skill-item">
                                                 <img src={sqliteLogo} alt="SQLite Logo" className="skill-logo" />
-                                                <p>SQLite</p>
+                                                <h5>SQLite</h5>
                                             </Col>
                                         </Row>
                                     </div>
                                 </div>
                                 <div className="glass item">
-                                    <h4>Intermediate Level</h4>
+                                    <h2>Intermediate Level</h2>
                                     <div className="skills-logos">
                                         <Col xs={6} md={4} lg={3} className="skill-item">
                                             <img src={javaLogo} alt="Java Logo" className="skill-logo" />
-                                            <p>Java</p>
+                                            <h5>Java</h5>
                                         </Col>
                                         <Col xs={6} md={4} lg={3} className="skill-item">
                                             <img src={springLogo} alt="Spring Logo" className="skill-logo" />
-                                            <p>Spring</p>
+                                            <h5>Spring</h5>
                                         </Col>
                                         <Col xs={6} md={4} lg={3} className="skill-item">
                                             <img src={pythonLogo} alt="Python Logo" className="skill-logo" />
-                                            <p>Python</p>
+                                            <h5>Python</h5>
                                         </Col>
                                         <Col xs={6} md={4} lg={3} className="skill-item">
                                             <img src={postgresqlLogo} alt="PostgreSQL Logo" className="skill-logo" />
-                                            <p>PostgreSQL</p>
+                                            <h5>PostgreSQL</h5>
                                         </Col>
                                         <Col xs={6} md={4} lg={3} className="skill-item">
                                             <img src={mysqlLogo} alt="MySQL Logo" className="skill-logo" />
-                                            <p>MySQL</p>
+                                            <h5>MySQL</h5>
                                         </Col>
                                     </div>
                                 </div>

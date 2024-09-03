@@ -32,8 +32,8 @@ function ContactComponent() {
             <Container>
                 <Row className="contact-header">
                     <Col size={12}>
-                        <p className="background-text">LET'S CONNECT</p>
-                        <h2 className="contact-heading">Contact</h2>
+                        <h1 className="display-2 background-text">LET'S CONNECT</h1>
+                        <h1 className="contact-heading">Contact</h1>
                     </Col>
                 </Row>
                 <Row className="align-items-center justify-content-center">

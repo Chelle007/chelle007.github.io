@@ -1,7 +1,7 @@
 export const FooterComponent = () => {
     return (
         <div className="footer">
-            <p>Michelle Chan © 2024. All Rights Reserved.</p>
+            <h6>Michelle Chan © 2024. All Rights Reserved.</h6>
         </div>
     )
 }
