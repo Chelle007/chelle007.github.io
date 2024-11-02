@@ -59,6 +59,7 @@ function ProjectComponent() {
             title: "Mobile Banking App API",
             description: "Final project for Back End Java bootcamp course.",
             imgUrl: projImg5,
+            githubUrl: "https://github.com/marceljsh/SETARA-api-service",
             techStack: ["java", "spring", "postgresql"],
         },
         {
