@@ -9,6 +9,7 @@ import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
 import projImg8 from "../assets/img/project-img8.png";
 import projImg9 from "../assets/img/project-img9.png";
+import projImg10 from "../assets/img/project-img10.png";
 
 function ProjectComponent() {
     const feProjects = [
@@ -34,7 +35,14 @@ function ProjectComponent() {
             imgUrl: projImg9,
             githubUrl: "https://github.com/Chelle007/vecycle",
             techStack: ["html", "css", "javascript", "react", "bootstrap"],
-        }
+        },
+        {
+            title: "VeSteps",
+            description: "Hackathon group project, steps tracking game with Google Fit API, won 2nd place.",
+            imgUrl: projImg10,
+            githubUrl: "https://github.com/Chelle007/vesteps",
+            techStack: ["html", "css", "javascript"],
+        },
     ];
 
     const fsProjects = [
