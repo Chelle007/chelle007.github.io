@@ -10,6 +10,7 @@ import projImg7 from "../assets/img/project-img7.png";
 import projImg8 from "../assets/img/project-img8.png";
 import projImg9 from "../assets/img/project-img9.png";
 import projImg10 from "../assets/img/project-img10.png";
+import projImg11 from "../assets/img/project-img11.png";
 
 function ProjectComponent() {
     const feProjects = [
@@ -59,6 +60,13 @@ function ProjectComponent() {
             imgUrl: projImg4,
             githubUrl: "https://github.com/Chelle007/SalonAdminWeb",
             techStack: ["html", "css", "java"],
+        },
+        {
+            title: "Clothing Finder",
+            description: "Group project using a deep learning model to classify clothing images and provide shopping recommendations.",
+            imgUrl: projImg11,
+            githubUrl: "https://github.com/Chelle007/dsa-internal-project",
+            techStack: ["html", "css", "javascript", "python", "openai"],
         },
     ]
 
